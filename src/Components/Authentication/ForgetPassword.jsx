@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CustomInput from './CustomInput';
+
 const ForgetPassword = () => {
   return (
     <div className='h-screen flex items-center justify-center'>
@@ -7,11 +9,10 @@ const ForgetPassword = () => {
         <h2 className='text-center text-2xl mt-10 font-bold'>Reset Password</h2>
         <form className="mt-10">
           <div>
-            <input
-              type="email"
-              className="block w-full px-4 py-4 mt-2 text-gray-700 bg-white border rounded-xl dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-              placeholder="Email Address"
-            />
+          <CustomInput
+                type="email"
+                placeholder="Email Address"
+              />
           </div>
 
           
