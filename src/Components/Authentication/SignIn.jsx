@@ -11,7 +11,7 @@ const SignIn = () => {
   return (
     <div className='h-screen flex items-center justify-center'>
       <div className="w-full max-w-md p-6 m-auto  dark:bg-gray-800">
-        <h2 className='text-center text-2xl mt-10 font-bold'>Log in</h2>
+        <h2 className='text-center text-2xl mt-10 font-bold'>Sign in</h2>
         <form className="mt-10">
           <div>
             <input
